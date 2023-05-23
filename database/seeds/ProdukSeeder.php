@@ -6,7 +6,7 @@ class ProdukSeeder extends Seeder
 {
     public function run()
     {
-        for ($i = 1; $i <= 10; $i++) {
+        for ($i = 15; $i <= 50; $i++) {
             DB::table('produk')->insert([
                 'nama_produk' => 'Produk '.$i,
                 'stok' => rand(10, 100),

@@ -1,0 +1,15 @@
+
+
+
+
+GET http://127.0.0.1:8000/api/produk/ HTTP/1.1
+
+GET http://127.0.0.1:8000/api/produk/11/ HTTP/1.1
+POST http://127.0.0.1:8000/api/produk HTTP/1.1
+content-type: application/json
+
+{
+    "nama_produk": "produksample",
+    "stok": "90",
+    "harga":"7805.00"
+}

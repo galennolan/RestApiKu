@@ -22,3 +22,9 @@ Route::get('produk/{id}', 'ProdukController@show');
 Route::post('produk', 'ProdukController@store');
 Route::put('produk/{id}', 'ProdukController@update');
 Route::delete('produk/{id}', 'ProdukController@destroy');
+
+Route::get('poli', 'PoliController@index');
+Route::get('poli/{id}', 'PoliController@show');
+Route::post('poli', 'PoliController@store');
+Route::put('poli/{id}', 'PoliController@update');
+Route::delete('poli/{id}', 'PoliController@destroy');
