@@ -11,6 +11,6 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        $this->call(PoliSeeder::class);
+        $this->call(PegawaiSeeder::class);
     }
 }
